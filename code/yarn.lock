@@ -9159,7 +9159,7 @@ __metadata:
     esm: ^3.2.25
     execa: ^5.0.0
     express: ^4.17.1
-    fs-extra: ^9.0.1
+    fs-extra: ^10.1.0
     github-release-from-changelog: ^2.1.1
     glob: ^7.1.6
     http-server: ^0.12.3
@@ -9223,6 +9223,7 @@ __metadata:
     webpack: 5
     webpack-dev-middleware: ^5.3.1
     window-size: ^1.1.1
+    yalc: ^1.0.0-pre.53
     zx: ^7.0.3
   dependenciesMeta:
     "@compodoc/compodoc":
@@ -25320,7 +25321,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore-walk@npm:^3.0.1":
+"ignore-walk@npm:^3.0.1, ignore-walk@npm:^3.0.3":
   version: 3.0.4
   resolution: "ignore-walk@npm:3.0.4"
   dependencies:
@@ -25531,7 +25532,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ini@npm:2.0.0":
+"ini@npm:2.0.0, ini@npm:^2.0.0":
   version: 2.0.0
   resolution: "ini@npm:2.0.0"
   checksum: 2e0c8f386369139029da87819438b20a1ff3fe58372d93fb1a86e9d9344125ace3a806b8ec4eb160a46e64cbc422fe68251869441676af49b7fc441af2389c25
@@ -33242,6 +33243,20 @@ __metadata:
     npm-bundled: ^1.0.1
     npm-normalize-package-bin: ^1.0.1
   checksum: 3b6dd1d0f677a3c1ad8e5f59362f4249459ad9fbb31c8a9306c0cf2af74016078d17a37fffee66b5437e76aba33c7ceb008905bccbadb23ea4776171d4b22b92
+  languageName: node
+  linkType: hard
+
+"npm-packlist@npm:^2.1.5":
+  version: 2.2.2
+  resolution: "npm-packlist@npm:2.2.2"
+  dependencies:
+    glob: ^7.1.6
+    ignore-walk: ^3.0.3
+    npm-bundled: ^1.1.1
+    npm-normalize-package-bin: ^1.0.1
+  bin:
+    npm-packlist: bin/index.js
+  checksum: cf0b1350bfa2e4bdef5e283365fb54811bd095f4b6c8e5f1352a12a155f9aafbd22776b5a79fea7c5e952fab2e72c40f54cea2e139d7d705cfc6f6f955f1aa48
   languageName: node
   linkType: hard
 
@@ -46410,6 +46425,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"yalc@npm:^1.0.0-pre.53":
+  version: 1.0.0-pre.53
+  resolution: "yalc@npm:1.0.0-pre.53"
+  dependencies:
+    chalk: ^4.1.0
+    detect-indent: ^6.0.0
+    fs-extra: ^8.0.1
+    glob: ^7.1.4
+    ignore: ^5.0.4
+    ini: ^2.0.0
+    npm-packlist: ^2.1.5
+    yargs: ^16.1.1
+  bin:
+    yalc: src/yalc.js
+  checksum: 630f65b00740da6d568d46748a40e2bf2c872cf9babe7c319642a5b6db2dcd0a5d4a34e249d20099709e3ba09bb7e9b34ff78af5cd54c690668e094e156551c9
+  languageName: node
+  linkType: hard
+
 "yallist@npm:^2.1.2":
   version: 2.1.2
   resolution: "yallist@npm:2.1.2"
@@ -46573,7 +46606,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^16.0.0, yargs@npm:^16.2.0":
+"yargs@npm:^16.0.0, yargs@npm:^16.1.1, yargs@npm:^16.2.0":
   version: 16.2.0
   resolution: "yargs@npm:16.2.0"
   dependencies:

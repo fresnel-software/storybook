@@ -4,14 +4,12 @@ node_modules
 *.iml
 *.sw*
 npm-shrinkwrap.json
-dist
 .tern-port
 *.DS_Store
 .cache
 .parcel-cache
 coverage/
 *.lerna_backup
-build
 packages/examples/automated-*
 /**/LICENSE
 docs/public

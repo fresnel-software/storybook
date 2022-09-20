@@ -1,0 +1,1 @@
+import{a as o}from"./chunk-HKSD7XQF.mjs";var r=[o.resolve("@storybook/preset-vue3-webpack/dist/framework-preset-vue3"),o.resolve("@storybook/preset-vue3-webpack/dist/framework-preset-vue3-docs")];export{r as addons};

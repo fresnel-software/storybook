@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getStorybookModuleMetadata = exports.AbstractRenderer = exports.rendererFactory = exports.computesTemplateSourceFromComponent = void 0;
+var ComputesTemplateFromComponent_1 = require("./client/angular-beta/ComputesTemplateFromComponent");
+Object.defineProperty(exports, "computesTemplateSourceFromComponent", { enumerable: true, get: function () { return ComputesTemplateFromComponent_1.computesTemplateSourceFromComponent; } });
+var render_1 = require("./client/render");
+Object.defineProperty(exports, "rendererFactory", { enumerable: true, get: function () { return render_1.rendererFactory; } });
+var AbstractRenderer_1 = require("./client/angular-beta/AbstractRenderer");
+Object.defineProperty(exports, "AbstractRenderer", { enumerable: true, get: function () { return AbstractRenderer_1.AbstractRenderer; } });
+var StorybookModule_1 = require("./client/angular-beta/StorybookModule");
+Object.defineProperty(exports, "getStorybookModuleMetadata", { enumerable: true, get: function () { return StorybookModule_1.getStorybookModuleMetadata; } });

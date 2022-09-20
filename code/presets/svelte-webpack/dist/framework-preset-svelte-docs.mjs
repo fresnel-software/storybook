@@ -1,0 +1,1 @@
+import{a as t}from"./chunk-HKSD7XQF.mjs";var a=async(e,{presets:r})=>{let o=await r.apply("framework"),s=typeof o=="object"?o.options:{},p=[...e.module?.rules||[],{test:/\.svelte$/,loader:t.resolve("@storybook/preset-svelte-webpack/dist/svelte-docgen-loader"),enforce:"post",options:s}];return e.module=e.module||{},e.module.rules=p,e};export{a as webpackFinal};

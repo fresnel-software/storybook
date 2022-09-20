@@ -1,0 +1,1 @@
+var a="test",r="storybookjs/test",i=`${r}/panel`,d=`${r}/add_tests`;function f(s){let{jest:t,fileName:e}=s;return typeof t=="string"?[t]:t&&Array.isArray(t)?t:t===void 0&&typeof e=="string"?[e.split("/").pop().split(".")[0]]:null}export{a,r as b,i as c,d,f as e};
